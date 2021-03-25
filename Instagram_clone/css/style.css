@@ -1,0 +1,117 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    min-height: 100%;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 80%;
+    height: 100vh;
+}
+
+.mockup_celular{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    margin-right: 40px;
+}
+
+.mockup_celular img{
+    width: 250px;
+}
+
+.formulario_cadastro{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.caixa_login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1.4px solid #eee;
+    color: #7a7a7a;
+}
+
+.caixa_login:nth-child(1){
+    min-height: 19rem;
+}
+
+.insta_logo{
+    height: 3rem;
+}
+
+.foto_perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.foto_perfil img{
+    height: 6rem;
+}
+.login{
+    color: #fff;
+    background-color: #00aaff;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid #00aaff;
+}
+.link-azul{
+    color: #33bbff;
+}
+
+.download{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download p{
+    padding-bottom: 18px;
+    color: #7a7a7a;
+}
+
+.apps{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.apps img{
+    width: auto;
+    max-height: 3rem;
+}
